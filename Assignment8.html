@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical-8</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #header {
+            background-color: gray;
+            display: flex;
+            height: 70px;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            position: fixed;
+            margin-top: 0;
+        }
+
+        #navBar {
+            height: 70px;
+        }
+
+        .menu {
+            list-style: none;
+            float: left;
+        }
+
+        .menu li {
+            display: inline-block;
+            text-transform: uppercase;
+            line-height: 70px;
+            margin-right: 80px;
+            justify-content: space-evenly;
+            font-size: 20px;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: white;
+            padding: 8px 35px;
+            border-radius: 15px;
+        }
+
+        .menu li a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        /* Banner */
+        #banner {
+            background-image: url("../Images/Practical-8/Practical-8-banner.jpg");
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            margin-top: 10px;
+            height: 750px;
+            margin-bottom: 50px;
+        }
+
+        #banner h2 {
+            margin: 20px 20px;
+            color: white;
+            font-size: 40px;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        /* Team Members */
+        #class-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            text-align: center;
+            width: 100%;
+        }
+
+        .circle img {
+            margin-left: 40px;
+            margin-right: 40px;
+            border-radius: 50%;
+            height: 170px;
+            width: 170px;
+            float: left;
+        }
+
+        /* About us */
+        #main-content {
+            background-color: gray;
+            height: 640px;
+            color: white;
+            width: 50%;
+            float: left;
+        }
+
+        #main-content h2 {
+            text-align: left;
+            padding-top: -20px;
+            padding-left: 10px;
+        }
+
+        .artical {
+            margin-left: 20px;
+            background-color: chocolate;
+            color: white;
+            height: 200px;
+        }
+
+        .artical h2 {
+            padding-top: 7px;
+            color: black;
+        }
+
+        #p1 {
+            background-image: url("../Images/Practical-8/p1.jpg");
+        }
+
+        #p2 {
+            background-image: url("../Images/Practical-8/p2.jpeg");
+            margin-top: 20px;
+        }
+
+        #p3 {
+            background-image: url("../Images/Practical-8/p3.jpg");
+            margin-top: 20px;
+        }
+
+        /* Technologies Used */
+        img {
+            height: 100;
+            width: 80%;
+            border-radius: 10px;
+        }
+
+        .card {
+            width: 20%;
+            float: left;
+            background-color: lightgrey;
+            margin: 10px 10px 10px 10px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .card p {
+            margin-top: 10px;
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            text-align: centre;
+            background-color: blue;
+            width: 60%;
+            height: 30px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .button:hover {
+            background-color: red;
+
+        }
+
+        /* Contact */
+        #footer {
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+            background-color: plum;
+            width: 98%;
+            height: 65px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <ul class="menu">
+            <li><a href="#navBar">Home</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div id="navBar"></div>
+    <div id="banner">
+        <h2>Practical-8</h2>
+    </div>
+    <h2 id="team">Team Members</h2>
+    <div id="class-container">
+        <div class="circle">
+            <img src="../Images/Practical-8/1.png" />
+        </div>
+        <div class="circle">
+            <img src="../Images/Practical-8/2.png" />
+        </div>
+        <div class="circle">
+            <img src="../Images/Practical-8/3.png" />
+        </div>
+        <div class="circle">
+            <img src="../Images/Practical-8/4.png" />
+        </div>
+    </div>
+    <h2 id="about-us" style="margin-bottom: 20px">About Us</h2>
+    <div class="section2" style="display: flex; margin-bottom: 40px">
+        <div id="main-content" style="margin-top: 10px">
+            <h2 style="margin-top: 15px">About Projects</h2>
+            <br />
+            <p style="
+            padding: 15px;
+            text-align: justify;
+            word-spacing: 5px;
+            line-height: 25px;
+          ">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
+                praesentium nemo, quas consequatur odio explicabo recusandae incidunt
+                vel asperiores accusantium nobis a omnis iste. Autem exercitationem
+                cumque dolorum minus. Deleniti, autem dignissimos! Quae dolorum, eaque
+                illo vero inventore quos impedit quod perferendis obcaecati blanditiis
+                officiis doloribus accusantium. Voluptates, quibusdam veritatis eum
+                dicta vero iste saepe beatae, alias dolorem culpa blanditiis
+                aspernatur temporibus aperiam iure inventore libero. Sed neque
+                eligendi harum dolorem aliquam ea veritatis accusamus voluptatum vitae
+                incidunt, totam ipsam, eos sint? Doloremque ipsum doloribus nostrum
+                nobis temporibus deserunt, maiores fugit laboriosam sapiente, incidunt
+                totam dolorem adipisci tempore nulla iste cupiditate ipsam odit.
+                Maiores soluta optio, repudiandae impedit nesciunt sed ipsam,
+                doloribus autem excepturi alias sit, eum inventore dignissimos fugit
+                necessitatibus laborum ducimus. Officiis, impedit ut officia, quasi
+                aliquam nulla nesciunt aliquid, perspiciatis quidem quibusdam eveniet.
+                Enim debitis possimus nostrum blanditiis exercitationem. Numquam
+                recusandae suscipit dolore voluptatum iste doloremque omnis, obcaecati
+                iure eaque beatae eligendi saepe placeat nobis voluptatibus asperiores
+                nesciunt velit! Soluta inventore quisquam, expedita iste magnam ipsa
+                modi ducimus exercitationem voluptatibus odio vero! Magni optio at
+                nihil repellat repellendus officia dolor, quis doloremque autem
+                assumenda obcaecati sed! Quis assumenda, velit commodi placeat nam
+                iste fuga excepturi odio voluptatem ad ducimus molestias soluta iure
+                est.
+            </p>
+        </div>
+        <div style="margin-left: 10px; width: 50%; margin-top: 10px">
+            <div class="artical" id="p1">
+                <h2>Project-1</h2>
+            </div>
+            <div class="artical" id="p2">
+                <h2>Project-2</h2>
+            </div>
+            <div class="artical" id="p3">
+                <h2>Project-3</h2>
+            </div>
+        </div>
+    </div>
+    <h2 id="technologies">Technologies Used</h2>
+    <div class="card">
+        <img src="./images/html.jpeg" alt="">
+        <h4>Introduction to HTML</h4>
+        <p>
+            HTML stands for Hypertext Markup Language, and it is the most widely used language to write Web Pages.
+            Hypertext refers to the way in which Web pages (HTML documents) are linked together.
+            Thus, the link available on a webpage is called Hypertext.
+        </p>
+        <a>
+            <button class="button"
+                onclick="window.location.href = 'https://jaikishan15.github.io/FullstackPracticals/webpages/html.html';">
+                Read More
+            </button>
+        </a>
+    </div>
+    <div class="card">
+        <img src="./images/jsc.jpg" alt="">
+        <h4> Introduction to js</h4>
+        <p>JavaScript often abbreviated as JS,
+            is a programming language that conforms to the ECMAScript specification.avaScript is high-level, often
+            just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based
+            object-orientation,
+        </p>
+        <a>
+            <button class="button"
+                onclick="window.location.href = 'https://jaikishan15.github.io/FullstackPracticals/webpages/js.html';">
+                Read More
+            </button>
+        </a>
+
+    </div>
+    <div class="card">
+        <img src="./images/css.jpeg" alt="">
+        <h4>Introduction to css</h4>
+        <p>
+            CSS is designed to enable the separation of presentation and content, including layout, colors, and
+            fonts.[3] This separation can improve content accessibility,
+            provide more flexibility and control in the specification project on GitHub
+        </p>
+        <a>
+            <a>
+                <button class="button"
+                    onclick="window.location.href = 'https://jaikishan15.github.io/FullstackPracticals/webpages/css.html';">
+                    Read More
+                </button>
+            </a>
+    </div>
+    <div class="card">
+        <img src="./images/boot.jpeg" alt="">
+        <h4> Introduction to boot</h4>
+        <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web
+            development. It contains CSS- and (optionally)
+            As of August 2021, Bootstrap is the tenth most starred project on GitHub, with overstarred project on
+            GitHub, with over
+        </p>
+        <a>
+            <a>
+                <button class="button"
+                    onclick="window.location.href = 'https://jaikishan15.github.io/FullstackPracticals/webpages/boot.html';">
+                    Read More
+                </button>
+            </a>
+        </a>
+    </div>
+    <h2 id="contact">Contact</h2>
+    <div id="footer">
+        Website Template for Practical-8
+        <br /><br />
+        <a href="#navBar">Back to Top</a>
+    </div>
+</body>
+
+</html>
