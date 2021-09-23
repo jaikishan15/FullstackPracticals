@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical-11</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+      }
+      main {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:BLACK;
+        font-size: 40px;
+      }
+      footer {
+        width: 100%;
+        background-color: BLACK;
+      }
+      .main-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 40px 15px;
+      }
+      .main-content h2 {
+        font-size: 20px;
+        color: white;
+    
+      }
+      .main-content ul {
+        list-style: none;
+      }
+      .about {
+        width: 40%;
+      }
+      .about p {
+        text-align: justify;
+        color: white;
+        margin-top: 25px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        color: green;
+      }
+      span {
+        color: white;
+      }
+      i {
+        color: white;
+        font-size: 30px;
+        margin-right: 15px;
+      }
+      .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 15px;
+      }
+      .form p {
+        color: white;
+        font-size: 25px;
+      }
+      .form a {
+        display: inline-block;
+        padding: 10px 25px;
+        color: white;
+        background-color: red;
+        margin-left: 10px;
+        border-radius: 20px;
+        font-size: 25px;
+      }
+      .form a:hover {
+        background-color: green;
+      }
+      .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 15px;
+      }
+      .social ul {
+        list-style: none;
+      }
+      .social ul li {
+        display: inline-block;
+        width: 55px;
+        height: 55px;
+        padding: 17.5px;
+        background-color: gray;
+        border-radius: 50%;
+        margin-right: 30px;
+      }
+      .social ul li i {
+        font-size: 30px;
+        line-height: 25px;
+      }
+      .social ul li:nth-child(1):hover {
+        background-color: BLUE;
+      }
+      .social ul li:nth-child(2):hover {
+        background-color: black;
+      }
+      .social ul li:nth-child(3):hover {
+        background-color:  blue;
+      }
+      .social ul li:nth-child(4):hover {
+        background-color: #0077b5;
+      }
+      .end {
+        color: white;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      @media (max-width: 770px) {
+        .main-content {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          padding: 30px 10px;
+          flex-wrap: wrap;
+        }
+        .main-content h2 {
+          font-size: 20px;
+          color: white;
+        }
+        .about {
+          width: 100%;
+          margin-bottom: 30px;
+        }
+        .form {
+          padding: 20px;
+        }
+        .social {
+          padding: 20px 10px;
+        }
+        .social ul {
+          list-style: none;
+          margin: 25px;
+        }
+        .social ul li {
+          display: inline-block;
+          width: 50px;
+          height: 50px;
+          padding: 18px;
+          background-color: gray;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+      }
+      @media (max-width: 505px) {
+        .main-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          padding: 30px 10px;
+        }
+        .main-content h2 {
+          font-size: 20px;
+          color: white;
+          margin-top: 20px;
+        }
+        .about {
+          width: 100%;
+        }
+        .social ul {
+          list-style: none;
+        }
+        .social ul li {
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          padding: 10px;
+          background-color: gray;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>CONTENT</main>
+    <footer>
+      <section class="main-content">
+        <section class="about">
+          <h2>About</h2>
+          <p>
+            LOREM
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Libero sit explicabo hic eum cum nulla sint commodi, dolorem tenetur expedita?
+          </p>
+        </section>
+        <section class="link1">
+          <h2>TECHNOLOGIES USE</h2>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/JavaScript">JAVASCRIPT</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Bootstrapping">BOOTSTRAP</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/JQuery">J-QUERY</a></li>
+          </ul>
+        </section>
+        <section class="link2">
+          <h2>SOCIAL NETWORKING SITES</h2>
+          <ul>
+            <li><a href="https://twitter.com/?lang=en">TWITTER</a></li>
+            <li><a href="https://www.facebook.com/login/">FACEBOOK</a></li>
+            <li><a href="https://www.instagram.com/">INSTAGRAM</a></li>
+            <li><a href="https://github.com/jaikishan15">GITHUB</a></li>
+            <li><a href="https://www.youtube.com/">YOUTUBE</a></li>
+          </ul>
+        </section>
+        <section class="link3">
+          <h2>Contact Us</h2>
+          <ul>
+            <li>
+              <a href="https://glauniversity.in:8085/Main/Index#!#tab-eg2-113"
+                ><i class="fa fa-home"></i><span> Home Page</span></a
+              >
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i
+              ><span> THROUGH MAIL</span>
+            </li>
+            <li>
+              <i class="fa fa-phone-square"></i><span> Mobile: 9923451111</span>
+            </li>
+            <li>
+              <a
+                href="https://github.com/jaikishan15?tab=repositories"
+                ><i class="fa fa-github-square"></i
+                ><span> JAI KISHAN</span></a
+              >
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section class="form">
+        <p>Register for Free</p>
+        <a href="#">signup!</a>
+      </section>
+      <section class="social">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/jaikishan15?tab=repositories"
+              ><i class="fa fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.google.com/"><i class="fa fa-google"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/feed/"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <section class="end">
+        <p>
+          Copyright © 2020 All Rights Reserved by
+          JAI KISHAN
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
