@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-12</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .button{
+          background-color: darkblue;
+          color: white;
+          padding: 10px;
+          width: 50%;
+          margin: 20px;
+          font-size: 1em;
+          border-radius: 20%;
+      }
+      .fa-check{
+          color: green;
+      }
+      
+      .fa-times{
+          color: red;
+      }
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: large;
+      }
+      table {
+        text-align: center;
+        line-height: 20px;
+        border: 2px solid #34495e;
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 5px;
+        border-spacing: 0;
+      }
+      .blue_row{
+          background-color: rgb(212, 248, 248);
+      }
+      .head{
+          font-size: 2em;
+          padding: 20px;
+          background-color: rgb(212, 248, 248);
+          color: darkblue;
+          margin-right: 20px;
+      }
+      .basic{
+          color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="5">select your plan</th>
+        </tr>
+            <tr class="first row">
+                <th class="head"><i class="fa fa-home"></i> BASIC</th>
+                <th class="head"><i class="fa fa-message"></i> PLUS</th>
+                <th class="head"><i class="fa fa-leaf"></i> DELUXE</th>
+                <th class="head"><i class="fa fa-rss"> </i> PRO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="basic">
+          <td>rs 500/-</td>
+          <td>rs 1500/-</td>
+          <td>rs 2500/-</td>
+          <td>rs 3500/-</td>
+        </tr>
+        <tr class="blue_row">
+         <td>50 pages</td>
+         <td>75 pages</td>
+         <td>unlimited</td>
+         <td>unlimited</td>
+        </tr>
+        <tr>
+          <td>3 user</td>
+          <td>5 user</td>
+          <td>10user </td>
+          <td>unlimiited</td>
+        </tr>
+        <tr class="blue_row">
+          <td>10 sites</td>
+          <td>25 sites</td>
+          <td>100 sites</td>
+          <td>unlimited</td>
+        </tr>
+        <tr>
+        <td>50 MB</td>
+        <td>250 MB</td>
+        <td>1 GB</td>
+        <td>6 GB</td>
+        </tr>
+        <tr class="blue_row">
+          <td>included</td>
+          <td>included</td>
+          <td>included</td>
+          <td>included</td>
+        </tr>
+        <tr>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+        </tr>
+        <tr class="blue_row">
+            <td><i class="fa fa-times"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+          
+        </tr>
+        <tr>
+            <td><i class="fa fa-times"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+        </tr>
+        <tr class="blue_row">
+            <td><i class="fa fa-times"></i></td>
+            <td><i class="fa fa-times"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+        </tr>
+        <tr>
+            <td><i class="fa fa-times"></i></td>
+            <td><i class="fa fa-times"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-times"></i></td>
+        </tr>
+        <td><button class="button">SIGNUP</button></td>
+            <td><button class="button">SIGNUP</button></td>
+            <td><button class="button">SIGNUP</button></td>
+            <td><button class="button">SIGNUP</button></td>
+      </tbody>
+    </table>
+  </body>
+</html>
