@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Example</title>
+    <style>
+        .container{
+            width: 400px;
+            height: 400px;
+            margin: 50px auto;
+            text-align: center;
+            background-color: yellow;
+        }
+        .btn{
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="c" onmouseover="fun1()" >
+    <h1>This is the example of the java script example</h1>
+    <button class  ="btn"> Click Me</button>
+    <br>
+    <input type="text" id="fname" name="fname" value="">
+</div>
+    <script>
+        function fun1(){
+            var r =  document.getElementById("c");
+            r.style.backgroundColor="red";
+        }
+
+        
+
+    </script>
+</body>
+</html>
